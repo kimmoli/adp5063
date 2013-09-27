@@ -7881,7 +7881,7 @@ KL SEPT 2013</text>
 <instance part="N2" gate="A" x="246.38" y="134.62"/>
 <instance part="+3V1" gate="G$1" x="279.4" y="142.24"/>
 <instance part="+3V2" gate="G$1" x="210.82" y="195.58"/>
-<instance part="GND1" gate="1" x="210.82" y="175.26"/>
+<instance part="GND1" gate="1" x="205.74" y="175.26"/>
 <instance part="GND2" gate="1" x="223.52" y="121.92"/>
 <instance part="R1" gate="G$1" x="91.44" y="99.06" rot="R90"/>
 <instance part="R2" gate="G$1" x="99.06" y="99.06" rot="R90"/>
@@ -7935,10 +7935,10 @@ KL SEPT 2013</text>
 <wire x1="279.4" y1="134.62" x2="279.4" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="VSS"/>
-<wire x1="177.8" y1="187.96" x2="210.82" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
-<wire x1="210.82" y1="187.96" x2="210.82" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="VDD"/>
+<wire x1="177.8" y1="182.88" x2="210.82" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="182.88" x2="210.82" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
@@ -7971,9 +7971,9 @@ KL SEPT 2013</text>
 <net name="GND" class="0">
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="210.82" y1="177.8" x2="210.82" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="VDD"/>
-<wire x1="210.82" y1="182.88" x2="177.8" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="177.8" x2="205.74" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="VSS"/>
+<wire x1="205.74" y1="187.96" x2="177.8" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="N2" gate="A" pin="GND"/>
